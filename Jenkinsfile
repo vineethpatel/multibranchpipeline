@@ -14,9 +14,9 @@ pipeline {
             }
         }
 
-        stage("Development") { 
+        stage("sprint2") { 
              steps { 
-                sh 'echo "Deploying application..."'
+                sh 'echo "sprint2 branch..."'
             }
         }  
     }
